@@ -1,8 +1,10 @@
+var path = require('path');
+
 module.exports = {
   entry: './lib/root.js',
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: './lib/bundle.js',
+    filename: 'bundle.js',
   },
   module: {
     loaders: [
@@ -11,7 +13,7 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015']
+          presets: ['env']
         }
       }
     ]
