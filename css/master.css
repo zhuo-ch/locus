@@ -30,3 +30,20 @@ body {
   align-items: flex-start;
   width: 25vw;
 }
+
+article {
+  margin: 1px 5px;
+  padding: 1px;
+}
+
+.title {
+  font-weight: bold;
+  margin: 1px;
+  padding: 1px;
+}
+
+.info {
+  color: dimgray;
+  margin: 1px 10px;
+  padding: 1px;
+}
