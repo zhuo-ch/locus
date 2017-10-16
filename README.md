@@ -1,6 +1,16 @@
 ## General Description
 ![Locus Visualization screenshot](lib/Locus_screenshot.png)
-[Locus Visualization](https://zhuo-ch.github.io/misc/) is a visualization app based off of Seattle's Aerospace data from conception to implementation. The goal is to present the data in a way that easy to digest while ensuring a great user experience.
+[Locus Visualization](https://zhuo-ch.github.io/locus/) is a visualization app based off of Seattle's Aerospace data from conception to implementation. The goal is to present the data in a way that easy to digest while ensuring a great user experience.
+
+## Directions
+
+- This visualization app is live on github at [Locus Visualization](https://zhuo-ch.github.io/locus/).
+
+- To run locally, set up a quick server
+  * Ruby ruby -run -e httpd . -p port_number
+  * Node(npm package http-server) http-server path_to_app -p port_number
+  * In browser goto port_number
+
 
 ## Features
 
