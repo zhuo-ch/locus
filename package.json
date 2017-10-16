@@ -1,7 +1,7 @@
 {
   "name": "Locus",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Locus Visualization screenshot](lib/Locus_screenshot.png) [Locus Visualization](https://zhuo-ch.github.io/misc/) is a visualization app based off of Seattle's Aerospace data from conception to implementation. The goal is to present the data in a way that easy to digest while ensuring a great user experience.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +18,13 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "xlsx": "^0.11.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuo-ch/misc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhuo-ch/misc/issues"
+  },
+  "homepage": "https://github.com/zhuo-ch/misc#readme"
 }
