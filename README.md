@@ -54,3 +54,5 @@
 - Change from SVG to Canvas. Although SVG was chosen (primarily for speed), this app will have to use Canvas if the data set scales up.
 
 - Refactor parsing functions. Parsing functions are currently highly specific to the data set used. The first refactor of the code base will focus on generalizing these functions for different data sets.
+
+- Add color coded ribbons on hover.
